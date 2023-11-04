@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnableDeveloperMode", "EnableDeveloperMode\EnableDeveloperMode.csproj", "{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeWeather", "ChangeWeather\ChangeWeather.csproj", "{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{E65F0AF4-C708-4ECD-878D-122469DAD019}"
+	ProjectSection(SolutionItems) = preProject
+		Cities-Skyline2-Mods.csproj = Cities-Skyline2-Mods.csproj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF949E4D-28E3-4E6F-9B77-1888C037BE3D}
+	EndGlobalSection
+EndGlobal
