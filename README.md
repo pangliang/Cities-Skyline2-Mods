@@ -5,11 +5,11 @@ Mod for Cities Skylines 2
 
 ## Mods
 
-| Mod Name                  | Feature                                                                                               | Download                                                                                                                                                  |
-| --------                  | -------                                                                                               | -------                                                                                                                                                   |
-| EnableDeveloperMode       | Activates the DevMode by default                                                                      | [ChangeWeather-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/ChangeWeather-1.0.0.zip)                       |
-| ChangeWeather             | Toggle precipitation by hotkey `ctrl+shift+r`                                                         | [EnableDeveloperMode-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/EnableDeveloperMode-1.0.0.zip)           |
-| LengthTooltipLike1        | When creating a road, tip adds a new unit of length (a grid) just like Cities 1                       | [LengthTooltipLike1-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/LengthTooltipLike1-1.0.0.zip)             |
+| Mod Name                  | Feature                                                                                               |
+| --------                  | -------                                                                                               |
+| EnableDeveloperMode       | Activates the DevMode by default                                                                      |
+| ChangeWeather             | Toggle precipitation by hotkey `ctrl+shift+r`                                                         |
+| Cities1Unit               | When creating a road, tip adds a new unit of length (a grid) just like Cities 1                       |
 
 ## Pre-Install
 Only do this for first time.
@@ -23,11 +23,11 @@ Only do this for first time.
 
 ## 组模
 
-| 组模名称                  | 功能                                                                                                          | 下载                                                                                                                                                      |
-| --------                  | -------                                                                                                       | -------                                                                                                                                                   |
-| EnableDeveloperMode       | 默认打开开发者模式, 进游戏后按tab进入开发者模式菜单                                                           | [ChangeWeather-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/ChangeWeather-1.0.0.zip)                       |
-| ChangeWeather             | 快捷键 `ctrl+shift+r` 打开/关闭下雨或下雪(冬天), 注意!! 天气切换后并不是马上消失, 雨量逐渐变化 (3-5秒)        | [EnableDeveloperMode-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/EnableDeveloperMode-1.0.0.zip)           |
-| LengthTooltipLike1        | 创建道路时, 长度提示增加一个新的单位(单元格), 类似Cities1                                                     | [LengthTooltipLike1-1.0.0.zip](https://github.com/pangliang/Cities-Skyline2-Mods/releases/download/202311041954/LengthTooltipLike1-1.0.0.zip)             |
+| 组模名称                  | 功能                                                                                                          |
+| --------                  | -------                                                                                                       |
+| EnableDeveloperMode       | 默认打开开发者模式, 进游戏后按tab进入开发者模式菜单                                                           |
+| ChangeWeather             | 快捷键 `ctrl+shift+r` 打开/关闭下雨或下雪(冬天), 注意!! 天气切换后并不是马上消失, 雨量逐渐变化 (3-5秒)        |
+| Cities1Unit               | 创建道路时, 长度提示增加一个新的单位(单元格), 类似Cities1                                                     |
 
 ## 安装前准备
 安装插件基础包, 只需要操作一次
