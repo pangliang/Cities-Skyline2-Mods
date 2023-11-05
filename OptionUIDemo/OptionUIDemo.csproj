@@ -10,7 +10,7 @@
 		</RestoreAdditionalProjectSources>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>latest</LangVersion>
-		<RootNamespace>EnableUIDebug</RootNamespace>
+		<RootNamespace>OptionUIDemo</RootNamespace>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 
