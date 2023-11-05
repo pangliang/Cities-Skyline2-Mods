@@ -10,7 +10,7 @@
 		</RestoreAdditionalProjectSources>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>latest</LangVersion>
-		<RootNamespace>LengthTooltipLike1</RootNamespace>
+		<RootNamespace>Cities1Unit</RootNamespace>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 

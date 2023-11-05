@@ -2,22 +2,8 @@
 using HarmonyLib;
 using System.Reflection;
 using System.Linq;
-using EnableDeveloperMode.Patches;
-using Game.Audio.Radio;
-using static Game.Audio.Radio.Radio;
-using Game.Prefabs;
-using UnityEngine;
-using Game.Areas;
-using Game.Rendering.Debug;
-using Game.UI.Tooltip;
-using System.Collections.Generic;
-using Colossal.IO.AssetDatabase;
-using Game.Rendering;
-using static Colossal.AssetPipeline.Constants.Material;
-using Unity.Burst;
-using EnableDeveloperMode;
 
-namespace EnableDeveloperMod
+namespace EnableDeveloperMode
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin

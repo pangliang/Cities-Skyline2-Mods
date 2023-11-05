@@ -2,7 +2,7 @@
 using Game.UI.Tooltip;
 using HarmonyLib;
 
-namespace LengthTooltipLike1.Patches
+namespace Cities1Unit.Patches
 {
     [HarmonyPatch(typeof(NetCourseTooltipSystem), "OnCreate")]
     class NetCourseTooltipSystem_OnCreatePatch
