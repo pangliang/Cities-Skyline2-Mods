@@ -4,6 +4,10 @@
 		<Cities2_Location>I:\XboxGames\Cities- Skylines II - PC Edition\Content</Cities2_Location>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>$(DefineConstants);UNITY_ASSERTIONS</DefineConstants>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<Reference Include="Colossal.AssetPipeline">
 			<HintPath>$(Cities2_Location)\Cities2_Data\Managed\Colossal.AssetPipeline.dll</HintPath>

@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedFiles", "SharedFiles", "{E65F0AF4-C708-4ECD-878D-122469DAD019}"
-	ProjectSection(SolutionItems) = preProject
-		Cities-Skyline2-Mods.csproj = Cities-Skyline2-Mods.csproj
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnableDeveloperMode", "EnableDeveloperMode\EnableDeveloperMode.csproj", "{0AE7BABD-E2A6-47B8-9844-7C9F46931A8C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeWeather", "ChangeWeather\ChangeWeather.csproj", "{244B554C-3F77-4DEC-8D38-B8EB4172FF0F}"
@@ -15,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities1Unit", "Cities1Unit\Cities1Unit.csproj", "{102DCD62-D904-439E-BEF3-2F4B69D4FD01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionUIDemo", "OptionUIDemo\OptionUIDemo.csproj", "{CF05A8E2-9B58-47D8-A9F6-969CF197490D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetMethodsDemo", "TargetMethodsDemo\TargetMethodsDemo.csproj", "{34B84C47-1831-4E29-9532-B710B0A9A422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +35,10 @@ Global
 		{CF05A8E2-9B58-47D8-A9F6-969CF197490D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF05A8E2-9B58-47D8-A9F6-969CF197490D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF05A8E2-9B58-47D8-A9F6-969CF197490D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B84C47-1831-4E29-9532-B710B0A9A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B84C47-1831-4E29-9532-B710B0A9A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B84C47-1831-4E29-9532-B710B0A9A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B84C47-1831-4E29-9532-B710B0A9A422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

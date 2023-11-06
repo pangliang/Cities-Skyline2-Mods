@@ -16,44 +16,40 @@ namespace OptionUIDemo.Patches
         static void Postfix(OptionsUISystem __instance)
         {
             Debug.Log("OptionsUISystem OnCreate");
-            
-            OptionsUISystem.Section section = new OptionsUISystem.Section
+            List<IWidget> items = new List<IWidget>()
             {
-                id = "Advanced",
-                items =
+                new Button
                 {
-                    new Button
+                    path = "input.resetbutton",
+                    displayName = LocalizedString.Id("Options.OPTION[input.resetbutton]"),
+                    action = delegate
                     {
-                        path = "input.resetbutton",
-                        displayName = LocalizedString.Id("Options.OPTION[input.resetbutton]"),
-                        action = delegate
-                        {
-                            Debug.Log("Button click");
-                        }
-                    },
-                    new IntSliderField
-                    {
-                        displayName = LocalizedString.Value("IntSliderField displayName"),
-                        tooltip = LocalizedString.Value("FloatSliderField tooltip"),
-                        min = 0,
-                        max = 100,
-                        step = 3,
-                        accessor = new DelegateAccessor<int>(() => (int)floatSliderFieldValue, delegate(int value)
-                        {
-                            Debug.Log("FloatSliderField set value: " + value);
-                            floatSliderFieldValue = value;
-                        })
-                    },
-                    new ToggleField
-                    {
-                        displayName = LocalizedString.Value("ToggleField displayName"),
-                        tooltip = LocalizedString.Value("ToggleField tooltip"),
-                        accessor = new DelegateAccessor<bool>(() => toggleFieldValue, delegate(bool value)
-                        {
-                            Debug.Log("ToggleField set value: " + value);
-                            toggleFieldValue = value;
-                        })
+                        Debug.Log("Button click");
                     }
+                },
+                new IntSliderField
+                {
+                    displayName = LocalizedString.Value("IntSliderField displayName"),
+                    tooltip = LocalizedString.Value("FloatSliderField tooltip"),
+                    min = 0,
+                    max = 100,
+                    step = 3,
+                    accessor = new DelegateAccessor<int>(() => (int)floatSliderFieldValue, delegate(int value)
+                    {
+                        Debug.Log("FloatSliderField set value: " + value);
+                        floatSliderFieldValue = value;
+                    })
+                },
+                new Divider { },
+                new ToggleField
+                {
+                    displayName = LocalizedString.Value("ToggleField displayName"),
+                    tooltip = LocalizedString.Value("ToggleField tooltip"),
+                    accessor = new DelegateAccessor<bool>(() => toggleFieldValue, delegate(bool value)
+                    {
+                        Debug.Log("ToggleField set value: " + value);
+                        toggleFieldValue = value;
+                    })
                 }
             };
 
@@ -67,7 +63,24 @@ namespace OptionUIDemo.Patches
             options.Add(new OptionsUISystem.Page()
             {
                 id = "Test",
-                sections = {section}
+                sections =
+                {
+                    new OptionsUISystem.Section()
+                    {
+                        id = "Simple",
+                        items = items
+                    }
+                    ,new OptionsUISystem.Section()
+                    {
+                        id = "Advanced",
+                        items = items
+                    }
+                    ,new OptionsUISystem.Section()
+                    {
+                        id = "Test",
+                        items = items
+                    }
+                }
             });
         }
     }

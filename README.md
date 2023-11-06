@@ -43,3 +43,6 @@ Only do this for first time.
 | Mod      | Game       | UnityEngine.Modules   | BepInEx       | HarmonyX  |
 | -------- | -------    | -------               | -------       | -------   |
 | 1.0.0    | 1.0.11.0   | 2022.3.7              | 5.4.22        | 2.10.2    |
+
+## 参考资料
+* [harmony 文档](https://harmony.pardeike.net/articles/intro.html)
