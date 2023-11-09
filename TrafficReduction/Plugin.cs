@@ -3,7 +3,7 @@ using HarmonyLib;
 using System.Reflection;
 using System.Linq;
 
-namespace TargetMethodsDemo
+namespace TrafficReduction
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
@@ -19,7 +19,7 @@ namespace TargetMethodsDemo
 
             foreach (var patchedMethod in patchedMethods)
             {
-                Logger.LogInfo($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.DeclaringType?.Name}:{patchedMethod.Name}");
+                Logger.LogInfo($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
             }
         }
     }

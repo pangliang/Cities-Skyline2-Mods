@@ -15,11 +15,9 @@ namespace EnableDeveloperMode.Patches
         static void Postfix(GameManager __instance)
         {
             GameManager.Configuration configuration = __instance.configuration;
-
             if (configuration != null)
             {
                 configuration.developerMode = true;
-
                 UnityEngine.Debug.Log("Turned on Developer Mode! Press TAB for the dev/debug menu.");
             }
         }

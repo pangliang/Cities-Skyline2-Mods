@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeWeather", "ChangeWeat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities1Unit", "Cities1Unit\Cities1Unit.csproj", "{102DCD62-D904-439E-BEF3-2F4B69D4FD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionUIDemo", "OptionUIDemo\OptionUIDemo.csproj", "{CF05A8E2-9B58-47D8-A9F6-969CF197490D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionUIDemo", "OptionUIDemo\OptionUIDemo.csproj", "{CF05A8E2-9B58-47D8-A9F6-969CF197490D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetMethodsDemo", "TargetMethodsDemo\TargetMethodsDemo.csproj", "{34B84C47-1831-4E29-9532-B710B0A9A422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetMethodsDemo", "TargetMethodsDemo\TargetMethodsDemo.csproj", "{34B84C47-1831-4E29-9532-B710B0A9A422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficReduction", "TrafficReduction\TrafficReduction.csproj", "{1AACAB03-4DEE-489A-80D4-864DE1D0D938}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{34B84C47-1831-4E29-9532-B710B0A9A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B84C47-1831-4E29-9532-B710B0A9A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B84C47-1831-4E29-9532-B710B0A9A422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AACAB03-4DEE-489A-80D4-864DE1D0D938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AACAB03-4DEE-489A-80D4-864DE1D0D938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AACAB03-4DEE-489A-80D4-864DE1D0D938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AACAB03-4DEE-489A-80D4-864DE1D0D938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
