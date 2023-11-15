@@ -14,7 +14,7 @@ Mod for Cities Skylines 2
 
 ## Pre-Install
 Only do this for first time.
-1. Download the [BepInEx_x64_5.4.22.0.zip](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.22)
+1. Download the newest [BepInEx-Unity.Mono-win-x64-6.0.0-be.XXX+xxxxxxx.zip](https://builds.bepinex.dev/projects/bepinex_be)
 2. Extract the contents to the root directory of Cities Skylines 2.
 3. Run the game once to ensure that BepInEx initializes and creates its config folder.
 
@@ -33,7 +33,7 @@ Only do this for first time.
 
 ## 安装前准备
 安装插件基础包, 只需要操作一次
-1. 下载 [BepInEx_x64_5.4.22.0.zip](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.22)
+1. 下载最新的 [BepInEx-Unity.Mono-win-x64-6.0.0-be.XXX+xxxxxxx.zip](https://builds.bepinex.dev/projects/bepinex_be)
 2. 解压到游戏根目录
 3. 运行一次游戏, 以让 BepInEx 初始化它自己的目录
 
