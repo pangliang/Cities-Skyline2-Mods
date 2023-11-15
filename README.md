@@ -42,9 +42,9 @@ Only do this for first time.
 2. 解压到`${游戏根目录}/BepInEx/plugins`下
 
 ## Lib Dependencies 版本依赖
-| Mod      | Game       | UnityEngine.Modules   | BepInEx       | HarmonyX  |
-| -------- | -------    | -------               | -------       | -------   |
-| 1.0.0    | 1.0.11.0   | 2022.3.7              | 5.4.22        | 2.10.2    |
+| Mod      | Game       | UnityEngine.Modules   | BepInEx    | HarmonyX  |
+| -------- | -------    | -------               |------------| -------   |
+| 1.0.0    | 1.0.11.0   | 2022.3.7              | 6.0.0-be.* | 2.10.2    |
 
 ## 参考资料
 * [harmony 文档](https://harmony.pardeike.net/articles/intro.html)
