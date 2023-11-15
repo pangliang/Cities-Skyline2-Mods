@@ -48,3 +48,4 @@ Only do this for first time.
 
 ## 参考资料
 * [harmony 文档](https://harmony.pardeike.net/articles/intro.html)
+* [BepInEx builds](https://builds.bepinex.dev/projects/bepinex_be)
